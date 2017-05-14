@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="100px" viewBox="0 0 300 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>MOJOY LOGO</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MOJOY-LOGO" stroke="#FFFFFF">
+            <g id="LOGO" transform="translate(25.000000, 22.000000)" stroke-width="6">
+                <path d="M18.5,45.7612457 C18.5,45.7612457 14.8737637,49.5395674 10,53.7612457 C7.37376373,55.5395674 1.63368058,56.0958192 0,50.2612457 L0,4.76124567 C3,-3.23875433 9,1.26124567 9,1.26124567 C9,1.26124567 38.5,27.6076194 66,53.7612457 C70.5,57.2612457 77,53.7612457 76.5,49.2612457 C77,35.7612457 76.5,27.5934582 76,5.26124567 C76.5,0.261245675 70,-1.23875433 66.5,1.26000023 C62.5,5.26124567 56,11.5 56,11.5" id="Path-2"></path>
+                <path d="M29.5,36 L46,20.5 L29.5,36 Z" id="Path-3"></path>
+                <path d="M37.75,10.5 C46,10.5 55.5,17 55.5,28.75 C55.5,40.5 44.5,47 37.75,46 C31,47 19.5,40 20,28.75 C19.5,17.5 29.5,10.5 37.75,10.5 Z" id="Path-4"></path>
+            </g>
+            <g id="M" transform="translate(124.000000, 37.000000)" stroke-width="4">
+                <path d="M0.199996948,26.5 C0.199996948,26.5 -9.57706137e-14,13.746431 0.199996948,3 C1,0.5 4.5,-0.5 6.5,2 C11,13.5915921 14,21.5 14,21.5" id="Path-5"></path>
+                <path d="M17,17 C17,17 19,13.7257199 24,2 C25,-0.5 29.5,-0.5 30,3 L30,26.5" id="Path-6"></path>
+            </g>
+            <g id="O" transform="translate(164.000000, 38.000000)" stroke-width="4">
+                <path d="M10.5,0 C6,1.25963671e-15 -1.13686838e-13,4.5 -1.13686838e-13,12 C-1.13490019e-13,19.5 6,24 10.5,24" id="Path-7"></path>
+                <path d="M24.5,0 C20,1.25963671e-15 14,4.5 14,12 C14,19.5 20,24 24.5,24" id="Path-8" transform="translate(19.250000, 12.000000) scale(-1, 1) translate(-19.250000, -12.000000) "></path>
+            </g>
+            <g id="J" transform="translate(197.000000, 35.000000)" stroke-width="4">
+                <path d="M13.5,0.5 L13.5,21.5 C12,26 9.5,27 7,27 C4.5,27 1,25 0.5,21" id="Path-9"></path>
+            </g>
+            <g id="O" transform="translate(222.000000, 38.000000)" stroke-width="4">
+                <path d="M10.5,0 C6,1.25963671e-15 0,4.5 0,12 C1.96818236e-16,19.5 6,24 10.5,24" id="Path-10"></path>
+                <path d="M24.5,0 C20,1.25963671e-15 14,4.5 14,12 C14,19.5 20,24 24.5,24" id="Path-11" transform="translate(19.250000, 12.000000) scale(-1, 1) translate(-19.250000, -12.000000) "></path>
+            </g>
+            <g id="Y" transform="translate(253.000000, 35.000000)" stroke-width="4">
+                <path d="M0,0.5 C5,5.5 7.5,7.5 10,12 C12.5,16.5 12,19.5 12,29" id="Path-12"></path>
+                <path d="M14,8.5 L22,0" id="Path-13"></path>
+            </g>
+        </g>
+    </g>
+</svg>
