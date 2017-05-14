@@ -14,9 +14,33 @@
             height: 100%;
             background-color: #108ee9;
             display: flex;
-            flex-flow: row nowrap;
+            flex-flow: column nowrap;
             justify-content: center;
-            align-content: center;
+            align-items: center;
+        }
+
+        .anim_fade_image {
+            position: absolute;
+            -webkit-transition: opacity 1s ease-in-out;
+            -moz-transition: opacity 1s ease-in-out;
+            -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .anim_fade_image:hover,
+        .anim_fade_image_hover {
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+
+        #see-again:hover {
+            cursor: pointer;
+        }
+
+        footer {
+            color: #fff;
+            position: fixed;
+            bottom: 20px;
         }
     </style>
 </head>
@@ -61,6 +85,12 @@
         </g>
     </svg>
 
+    <h3 id="see-again" style="color: #108ee9;" onclick="playAgain()">再看一遍</h3>
+
+    <footer>
+        Copyright &copy; 2015-2017 JeasonStudio.
+    </footer>
+
     <script>
         function playByIdSeconds(idname, time) {
             var path = document.querySelector(idname);
@@ -80,7 +110,7 @@
             path.style.strokeDashoffset = '0';
         }
 
-        (function () {
+        function play() {
             for (var index = 0; index < document.getElementsByTagName('path').length; index++) {
                 document.getElementsByTagName('path')[index].style.display = 'none'
             }
@@ -124,7 +154,7 @@
             setTimeout(() => {
                 playByIdSeconds('#O2 #Path-11', '1')
             }, 4500)
-            
+
             // Y
             setTimeout(() => {
                 playByIdSeconds('#Y #Path-12', '1')
@@ -133,7 +163,18 @@
                 playByIdSeconds('#Y #Path-13', '1')
             }, 4500)
 
+        }
+
+        (function () {
+            play()
+            setTimeout(() => {
+                document.getElementById('see-again').style.color = '#fff';
+            }, 6000)
         })()
+
+        function playAgain() {
+            play()
+        }
     </script>
 </body>
 
