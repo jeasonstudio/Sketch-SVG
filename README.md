@@ -8,3 +8,5 @@ Draw the SVG Animations by Sketch And JavaScript. @JeasonStudio.
 </video>
 
 本来是要写教程的，可暂时还没挤出时间来。
+
+开始写
